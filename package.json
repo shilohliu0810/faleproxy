@@ -31,7 +31,10 @@
       "**/*.js",
       "!**/node_modules/**",
       "!**/coverage/**",
-      "!jest.config.js"
+      "!**/tests/**",
+      "!**/public/**",
+      "!jest.config.js",
+      "!app.js"
     ],
     "coverageThreshold": {
       "global": {
